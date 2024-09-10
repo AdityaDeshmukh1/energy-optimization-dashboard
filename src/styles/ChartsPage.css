@@ -1,0 +1,12 @@
+/* src/styles/ChartsPage.css */
+.charts-page {
+    padding: 20px;
+    background-color: #f5f5f5;
+    flex: 1;  /* Ensure it uses the remaining space */
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
