@@ -5,6 +5,7 @@ import LandingPage from './pages/LandingPage';
 import ChartsPage from './pages/ChartsPage'; // Create this page for charts
 import Footer from './components/Footer';
 import './App.css';
+import LoginPage from './pages/LoginPage';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <div className="App">
         <Routes>
           <Route path="/" element={<LandingPage />} />
+          <Route path="/login" element={<LoginPage />} />
           <Route path="/charts" element={<ChartsPage />} />
         </Routes>
         <Footer />

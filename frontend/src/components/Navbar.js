@@ -1,6 +1,8 @@
 // src/components/Navbar.js
 import React from 'react';
 import '../styles/Navbar.css';
+import { Link } from 'react-router-dom';
+
 
 const Navbar = () => {
   return (
@@ -12,7 +14,7 @@ const Navbar = () => {
           <li><a href="#about">About Us</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
-        <button className="cta-button">Get Started</button>
+        <Link to="/login" button className="cta-button">Get Started</Link>
       </div>
     </nav>
   );
